@@ -1,0 +1,43 @@
+.parent{
+    /* border: 1px solid green; */
+    width: 98%;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:#0e0e0e;
+}
+#container{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    margin-top: 210px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    background-color: rgb(54, 50, 50);
+    
+}
+.div1{
+    border: 1px solid grey;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    width: 30%;
+    text-align: center;
+    background-color: #282828;
+    color: white;
+}
+#btn{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+background-image: url('cloud-b.png');
+background-size: cover;
+background-position:top;
+}
